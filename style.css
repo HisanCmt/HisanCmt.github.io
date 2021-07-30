@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #e97426;
+    color: rgb(82, 11, 85);
+    font-size: 20px;
+    padding: 5px;
+}
+
+#bor_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pic1 {
+    width: 130px;
+}
+
+.items:hover {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+#gor_div {
+    background-color: rgb(152, 56, 155);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pic2 {
+    width: 600px;
+    height: 400px;
+}
+
+#pic3 {
+    width: 740px;
+    height: 400px;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 10px;
+}
