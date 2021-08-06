@@ -54,34 +54,41 @@ hr {
 }
 
 li {
-    margin: 10px 0px 0px 25px;
-    color: white;
-    background-color: black;
+    margin: 10px 20px 10px 25px;
+    color: rgb(82, 11, 85);
+    font-weight: bold;
+    background-color: darkorange;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 10px 0px 10px 5px;
 }
 
 ul {
-    margin: 15px 5px 5px 25px;
-    background-color: black;
+    margin: 15px 20px 10px 25px;
+    background-color: darkorange;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border-style: double;
+    border-width: thick;
 }
 
-#img1 {
-    margin: 0px 0px 0px 25px;
-    width: 300px;
+img {
+    background-color:darkorange;
+    width: 280px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: double;
+    border-width: thick;
 }
 
-#img2 {
-    margin: 0px 0px 0px 25px;
-    width: 230px;
+.grow { 
+    transition: all .2s ease-in-out; 
 }
-
-#img3 {
-    margin: 0px 0px 0px 25px;
-    width: 230px;
+    
+.grow:hover { 
+    transform: scale(1.05); 
 }
